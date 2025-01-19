@@ -1,0 +1,428 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+body{ background:none;
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+text-align:center;
+
+	
+}
+
+p {
+	color:#000;
+	font-size:12px;
+	
+	
+}
+
+#full{width:900px;
+margin:0 auto;
+
+	
+}
+#header {
+	background: #FFF;
+	height: 151px;
+	overflow:hidden;
+	border:none;
+	
+
+}
+#header a{
+	text-decoration:none;
+	border:none;
+	
+}
+	
+	
+#bar {
+list-style:none outside none;
+margin:0;
+padding:0;
+width:950px;
+float:left;
+overflow:hidden;
+}
+
+#bar li {
+float:left;
+height:45px;
+overflow:hidden;
+display:inline;
+float:left;
+position:relative;
+
+}
+.barAbout a {
+background:url("imagesNew/barAboutF.jpg") no-repeat scroll left center transparent;
+display:block;
+height:45px;
+width:180px;
+}
+.barAbout a:hover {
+background-position:-180px 50%;
+}
+.barPhoto a {
+background:url("imagesNew/barPhotoF.jpg") no-repeat scroll left center transparent;
+display:block;
+height:45px;
+width:180px;
+}
+.barPhoto a:hover {
+background-position:-180px 50%;
+}
+
+.barImage a {
+background:url("imagesNew/barImageF.jpg") no-repeat scroll left center transparent;
+display:block;
+height:45px;
+width:180px;
+}
+.barImage a:hover {
+background-position:-180px 50%;
+}
+.barAni a {
+background:url("imagesNew/barAniF.jpg") no-repeat scroll left center transparent;
+display:block;
+height:45px;
+width:180px;
+}
+.barAni a:hover {
+background-position:-180px 50%;
+}
+.barContact a {
+background:url("imagesNew/barContactF.jpg") no-repeat scroll left center transparent;
+display:block;
+height:45px;
+width:180px;
+
+}
+.barContact a:hover {
+background-position:-180px 50%;
+}
+
+#lBar {background:url("imagesNew/lBar3.jpg");
+height:85px;
+width:900px;
+float:left;
+overflow:hidden;
+
+}
+
+
+#aniTopBar {background:url("imagesNew/footerBarFlip.jpg");
+height:85px;
+width:900px;
+float:left;
+overflow:hidden;
+
+}
+.topNav{
+padding-top:10px;
+	
+}
+.divider {
+background:none repeat scroll 0 0 #9b9b9b;
+height:3px;
+margin-top:5px;
+line-height: 0px;
+}
+
+.headers {
+color:#000000;
+font-family:Arial,Helvetica,sans-serif;
+font-size:16px;
+letter-spacing:3px;
+text-align:center;
+
+
+}
+
+#container {
+background:url(" ") repeat-x scroll left top #ffffff;
+overflow:hidden;
+margin-bottom:10px;
+width:900px;
+float:left;
+}
+
+.left-col {
+clear:right;
+color:#333333;
+float:left;
+font-size:11px;
+line-height:16px;
+margin-left:10px;
+margin-right:20px;
+overflow:hidden;
+width:200px;
+text-align:left;
+display: inline;
+}
+.center-col {
+border-left:2px solid #c1ff90;
+border-right:2px solid #c1ff90;
+color:#333333;
+float:left;
+font-size:12px;
+height:auto;
+line-height:16px;
+overflow:hidden;
+padding:0 15px 15px;
+width:410px;
+text-align:center;
+display: inline;
+}
+
+.large-col-left {
+border-right:2px solid #c1ff90;
+color:#333333;
+float:left;
+font-size:12px;
+height:auto;
+line-height:16px;
+overflow: hidden;
+padding:0 10px 10px;
+width:650px;
+text-align:left;
+display: inline;
+}
+.right-col {
+float:left;
+font-size:11px;
+line-height:16px;
+overflow:hidden;
+margin-left:10px;
+width:200px;
+text-align:right;
+display: inline;
+
+}
+
+#twit { padding-top: 20px;
+
+}
+
+.titles {
+	color: #063;
+}
+
+.titlesLg {
+	color: #063;
+	font-size:14px;
+	text-decoration:none;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	
+}
+
+.otherFields {
+padding-top:20px;
+line-height:18px;
+font-size:12px;	
+	
+}
+
+.otherFields a{
+text-decoration:none;
+color:#333;	
+	
+}
+
+.iAm {
+color:#000;
+padding-top:20px;
+line-height:18px;
+font-size:14px;
+font-family:Arial, Helvetica, sans-serif;
+
+
+}
+
+.iAm a{ 
+text-decoration:none;
+color:#333;
+}
+
+
+.allies {
+padding-top:20px;
+line-height:18px;
+font-size:12px;
+
+	
+}
+
+.allies a{
+	text-decoration:none;
+	color:#333;
+	 
+ }
+
+.homeAbout{
+ color:#000;
+font-family: Arial, Helvetica, sans-serif;
+font-size:16px;
+font-weight:normal;
+line-height: 18px;
+}
+
+.homeAbout a{ text-decoration:none;
+color:#333;
+}
+
+#latestWork {
+list-style:none outside none;
+margin:20px 0 0;
+padding:0;
+}
+#latestWork li {
+font-size:12px;
+margin-bottom:10px;
+display: inline;
+}
+
+.photosHome {
+border:2px solid #9b9b9b;
+margin-bottom:5px;
+padding:1px;
+display: inline;
+}
+.photosHome:hover {
+border:2px solid #C1ff90;
+padding:1px;
+}
+
+#aniThumbs {
+text-align:center;
+list-style:none outside none;
+margin:20px 0 0;
+padding:0;
+}
+#aniThumbs li {
+font-size:12px;
+margin-bottom:10px;
+display: inline;
+}
+
+#footer {
+color:#999;
+font-family:Arial,Helvetica,sans-serif;
+font-size:11px;
+height:150px;
+line-height:20px;
+margin-left:auto;
+margin-right:auto;
+text-align:center;
+width:900px;
+overflow:hidden;
+float:left;
+display: inline;
+}
+
+#footerBar {background:url("imagesNew/footerBar.jpg");
+height: 85px;
+overflow:hidden;
+float:left;
+width:900px;
+}
+
+#footerNav {
+color:#777777;
+background-color: #000;
+font-family:Arial,Helvetica,sans-serif;
+font-size:11px;
+padding-top:10px;
+height:85px;
+line-height:10px;
+text-align:center;
+letter-spacing:2px;
+width:900px;
+overflow:hidden;
+float:left;
+}
+
+#aniTitle {
+color:#FFF;
+background-color: #000;
+font-family:Arial,Helvetica,sans-serif;
+font-size:18px;
+padding-top:10px;
+height:25px;
+line-height:16px;
+text-align:center;
+letter-spacing:2px;
+width:900px;
+overflow:hidden;
+float:left;
+}
+
+.bottomNav a {
+color:#777777;
+text-decoration:none;
+}
+.bottomNav a:active {
+color:#777777;
+}
+.bottomNav a:visited {
+color:#777777;
+}
+.bottomNav a:hover {
+color:#FFFFFF;
+}
+.bottomNav {
+color:#777777;
+letter-spacing:2px;
+}
+
+
+
+
+form {
+	margin: 0;
+	padding-top: 20px;
+	text-align:center;
+	
+}
+
+label {
+	color: #063;
+	display: block;
+	margin-bottom: 5px;
+	font-weight: normal;
+	font-size: 14px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+form .formelement {
+	margin-bottom: 20px;
+}
+
+form .formerror {
+	color: #900;
+}
+
+form input[type="text"], form textarea
+{
+	color: #333;
+    font-size: 100%;
+	padding: 10px;
+	margin-right: 5px;
+    border: solid 2px #9b9b9b;
+    width: 350px;
+}
+
+form input[type="text"]:focus, form textarea:focus
+{
+	color:#333;
+	font-size: 100%;
+    padding: 10px;
+	margin-right: 5px;
+    border: solid 2px #c1ff90;
+    width: 380px;
+}
+
+form textarea {
+	font-family: "Lucida Grande", Trebutchet, Arial, Helvetica, sans-serif;
+}
+
